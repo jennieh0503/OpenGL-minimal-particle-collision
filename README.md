@@ -34,7 +34,7 @@ Project to learn how particle simulation works. Evolution of a minimal renderer 
 
 ---
 
-## LIMITIATIONS AND FUTURE WORK
+## LIMITATIONS AND FUTURE WORK
 - the current implementation isn't optimal when checking for possible collisions, the time complexity is in fact O(n^2) where n is the number of particles. One possible optimization to lower complexity could be to select only pairs of particles that COULD be colliding, by checking their position on the axes (for example if the space they occupy on one axix overlaps with another particle)
 - rotation and different restitutions could be considered for future work and further simulations
 
